@@ -1,0 +1,65 @@
+.background{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.background-img{
+    height: 100%;
+    background-position: center;
+    background-size: contain; /* Mantém a proporção da imagem sem cortar */
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 0;
+    filter: blur(3px);
+    filter: brightness(65%);
+
+}
+
+.conteudo{
+    background-position: center;
+    position: fixed;
+    left: 35%;  
+    top: 22%;
+    z-index: 1;
+    filter: drop-shadow(10px 10px 10px #000000);
+}
+
+.text-inicial-page{
+    font-size: large;
+    font-family:'Arial';
+    text-align: left;
+    background-position: center;
+    position: fixed;
+    left: 35%;  
+    top: 48%;
+    width: 620px;
+    height: 100px;
+    color: white;
+    filter: drop-shadow(10px 10px 14px #000000);
+}
+
+.buton{
+    position: fixed; /* Para manter a posição relativa à tela */
+    left: 50%; 
+    top: 68%;   
+    transform: translate(-50%, -50%); /* Centraliza o botão */
+    z-index: 2;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sobre{
+    width: 200px;
+    height: 60px;
+    color: rgb(236, 236, 236); /* Cor do texto */
+    padding: 10px 20px;
+    background-color: #976626; /* Cor do botão */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
